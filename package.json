@@ -1,0 +1,23 @@
+{
+    "name": "callc",
+    "version": "1.0.0",
+    "description": "find function usage in javascript source code",
+    "main": "callc.js",
+    "bin": {
+        "callc": "callc.js"
+    },
+    "dependencies": {
+        "acorn-jsx": "^3.0.1",
+        "acorn-object-spread": "^1.0.0",
+        "commander": "^2.9.0",
+        "falafel": "^2.0.0",
+        "findit": "^2.0.0",
+        "optimist": "^0.6.1"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "bpostlethwaite",
+    "license": "MIT"
+}
